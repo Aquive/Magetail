@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+        <attribute name="class" value="container"/>
+        <attribute name="class" value="max-w-screen-xl"/>
+        <attribute name="class" value="mx-auto"/>
+    </body>
+</page>
