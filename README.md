@@ -6,10 +6,12 @@ This is a try out project to integrate Tailwind CSS into Magento 2. It works and
 
 I was playing with this idea for a while now. Since then Hyva (https://hyva.io/) came out. Hyva does the same with allot more. It is a complete overhaul of the frontend of Magento 2 including change of JS stack. So if you are looking for something for production, go check it out. The idea behind this project was just have Luma with the magic of Tailwind CSS. 
 
+## Steps to achieve goal
+
 1. Don't load original Luma CSS
 2. Incorporate Tailwind CSS into Magento 2
 3. Leave html id's and classes as they are so the JS keeps working as expected
-4. Restyle complete frontend with Tailwind 
+4. Restyle complete frontend with Tailwind CSS
 
 ## WIP
 
