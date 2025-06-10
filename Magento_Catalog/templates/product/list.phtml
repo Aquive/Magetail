@@ -104,10 +104,9 @@ $_helper = $block->getData('outputHelper');
                                             <?= $block->getBlockHtml('formkey') ?>
                                             <button type="submit"
                                                     title="<?= $escaper->escapeHtmlAttr(__('Add to Cart')) ?>"
-                                                    class="action tocart primary bg-green-500 w-full text-white py-2 rounded-sm"
-                                                    disabled>
-                                                <span><?= $escaper->escapeHtml(__('Add to Cart')) ?></span>
-                                            </button>
+                                                    class="action tocart primary bg-green-500 w-full text-white py-2 rounded-sm">
+                                               <span><?= $escaper->escapeHtml(__('Add to Cart')) ?></span>
+                                           </button>
                                         </form>
                                     <?php else:?>
                                         <?php if ($_product->isAvailable()):?>
