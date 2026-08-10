@@ -1,3 +1,5 @@
+
+
 # MageTail: Magento 2 + Tailwind CSS Theme (Proof of concept)
 
 This is a try out project to integrate Tailwind CSS into Magento 2. It works and was quite easy to achieve to get it working.
@@ -19,10 +21,10 @@ I was playing with this idea for a while now. Since then Hyva (https://hyva.io/)
 
 ## Usage
 
-- clone into `app\design\frontend\Aqm\Magetail`
+- clone into `app/design/frontend/Aqm/MageTail`
 - run `npm install`
 - run `npx tailwindcss -i ./web/css/main.css -o ./web/css/tailwind.css --watch` from the theme root
 
 ## Author
 
-- Akif Gumussu (info@aquive.nl) 
+- Akif Gumussu (info@aquive.nl)
